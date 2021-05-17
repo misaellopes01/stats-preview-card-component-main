@@ -1,4 +1,4 @@
-<h1> #Status Preview Card Component </h1>
+<h1> Status Preview Card Component </h1>
 <hr>
 <img src="https://user-images.githubusercontent.com/66078558/118527529-4e52cc00-b739-11eb-9dcc-433f1c05fe7b.png" alt="Preview">
 <h3>You can visit at: <a href="https://article-preview-component-master-mu-one.vercel.app/" target="_blank">Vercel - Status Preview Card Component</a>
