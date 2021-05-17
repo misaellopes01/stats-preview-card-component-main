@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+h2{
+    font-family: Inter, sans-serif;
+}
+main{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    background-color: hsl(244, 38%, 16%);
+    width: 870px;
+    height: 360px;
+    margin: auto;
+    display: flex;
+    border-radius: 8px;
+}
+
+section .content{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+section .content .text-main{
+    padding-left: 3rem;
+}
+section .content .text-main h2{
+    font-size: 1.85rem;
+    line-height: 2rem;
+    padding-right: 2rem;
+    color: hsl(0, 0%, 100%);
+}
+section .content .text-main h2 em{
+    color: hsl(277, 64%, 61%);
+    font-style: normal;
+}
+section .content .text-main p{
+    padding-top: 1.5rem;
+    font-size: .9rem;
+    padding-right: 3rem;
+    line-height: 1.4rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+section .content .count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem;
+}
+section .content .count div{
+    padding-right: 2.2rem;
+}
+section .content .count div h3{
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding-top: .4rem;
+}
+section .content .count div p{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 1.25rem;
+    font-family: 'Inter', sans-serif;
+}
+section .content .count div:last-child p{
+    text-transform: uppercase;
+}
+section .image{
+    width: 50%;
+    background: url('./../images/image-header-desktop.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 0 8px 8px 0;
+}
+section .image div{
+    width: 100%;
+    height: 100%;
+    background: hsl(277, 64%, 61%);
+    filter: contrast(200%) brightness(60%);
+    opacity: .5;
+    border-radius: 0 8px 8px 0;
+}
+.attribution{ 
+    font-size: 11px; 
+    text-align: center;
+    color: rgb(145, 142, 142);
+    font-family: Inter, sans-serif;
+}
+.attribution a{ 
+    color: hsl(277, 64%, 61%);
+    text-decoration: none; 
+}
